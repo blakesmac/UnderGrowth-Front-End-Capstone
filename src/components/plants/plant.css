@@ -1,0 +1,103 @@
+.plant {
+    margin: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+    border: ridge aqua;
+    background-color: aquamarine;
+    font-style: oblique;
+    width: 270px;
+    border-radius: 18px;
+    align-items: baseline;
+
+}
+.plant__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: initial;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+.plants {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3em;
+}
+
+.listTitle {
+    margin:auto;
+    padding: 2em;
+    text-align: center;
+    color: aquamarine;
+}
+
+
+.plantbutton_edit {
+    
+    margin:0.3rem;
+    padding: 1em;
+    color: white;
+    background-color:darkslategray;
+    border-radius: 4px;
+    padding: 8px 12px;
+    border: #2e6da4;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.plantbutton_edit:hover {
+    background-color: blue;
+}
+
+.plantbutton__delete  {
+    margin:0.3rem;
+    padding: 1em;
+    color: white;
+    background-color:darkslategray;
+    border-radius: 4px;
+    padding: 8px 12px;
+    border: #2e6da4;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-decoration: none;
+
+}
+.plantbutton__delete:hover {
+    background-color: red;
+}
+
+/* .input--wide:hover {
+    background: darkslategray;
+	height: 6%;
+	position: absolute;
+	text-align: center;
+	width: 40%;
+} */
+.body {
+    background-color: bisque;
+}
+
+.search {
+    color: aqua;
+}
+
+.plantForm {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border-style: ridge;
+    align-items: center;
+    width: 250px;
+    margin:auto;
+    padding: 1em;
+    background-color:green;
+}

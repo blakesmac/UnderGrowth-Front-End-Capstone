@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Blake McAdams",
+      "email": "blakemac@comcast.net",
+      "password": "blakeplantstomatoes"
+    },
+    {
+      "id": 2,
+      "name": "William Wallace",
+      "email": "william@wallace.net",
+      "password": "willplantspotatoes"
+    },
+    {
+      "email": "bill@lee.com",
+      "name": "Bill Lee",
+      "password": "billlovesplants",
+      "id": 3
+    }
+  ],
+  "plants": [
+    {
+      "userId": 3,
+      "img": "https://www.gardeningknowhow.com/wp-content/uploads/2021/05/tomatoes.jpg",
+      "name": "Tomatoes",
+      "species": "Heirloom Tomatoes",
+      "plantingzone": "Plant next to Potatoe varieties and cabbage if possible",
+      "growinfo": "These need full sun, and to be planted in a well drained area.",
+      "whentogrow": "Spring, Early June",
+      "id": 8
+    },
+    {
+      "userId": 3,
+      "img": "https://gardenerspath.com/wp-content/uploads/2019/03/How-to-Grow-Potatoes-Cover.jpg",
+      "name": "Potatoes",
+      "species": "Tubers, Root Vegetable",
+      "plantingzone": "These flourish around any number of other veegetables, recommended to keep them around other tubing plants",
+      "growinfo": "Potatoes wil grow best in full sunlight, also require well drained soil.",
+      "whentogrow": "Plant your potatoes in March, April or May for best results.",
+      "id": 9
+    }
+  ],
+  "comments": [],
+  "myplants": [
+    {
+      "id": 1,
+      "userId": 3,
+      "plantId": 8
+    }
+  ]
+}

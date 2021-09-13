@@ -1,0 +1,20 @@
+
+.homeTitle {
+    margin: 3em;
+    padding: 2em;
+    text-align: center;
+    color: green;
+    font-style: oblique ;
+    border-style: ridge;
+    background-color: lightgoldenrodyellow;
+}
+
+
+
+.carouselItem {
+    margin: 1em;
+    padding: 3em;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    size: initial;
+}
