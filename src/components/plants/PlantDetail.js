@@ -3,6 +3,8 @@ import { PlantContext } from "./PlantProvider"
 import { useParams, useHistory } from "react-router-dom"
 import { MyPlantsContext } from "../myplants/MyPlantsProvider"
 import "./plant.css"
+import { VscTrash } from "react-icons/vsc";
+import {VscEdit } from "react-icons/vsc";
 export const PlantDetail = (props) => {
     const { plants, deletePlant, } =useContext(PlantContext)
     const {   addMyPlant, deleteMyPlant} = useContext(MyPlantsContext)
@@ -22,7 +24,7 @@ export const PlantDetail = (props) => {
     const handleSaveMyPlant = () => {
         addMyPlant({
             plantId: parseInt(plant.id),
-            userId: currentUser
+            userId: parseInt(currentUser)
         })
         .then(() => history.push(`/myplants`))
     }
@@ -30,7 +32,7 @@ export const PlantDetail = (props) => {
     const handleDeleteMyPlant = () => {
         deleteMyPlant(props.myPlantId)
         .then(() => {
-            history.push("/plants")
+            history.push("/myplants")
         })
     }
 
@@ -60,10 +62,10 @@ export const PlantDetail = (props) => {
             <div className="plant__species">Species:{ props.plant.species }</div>
             <div className="plant__plantingzone">Where to plant: {props.plant.plantingzone}</div>
             <div className="plant__growinfo">Growing Information: {props.plant.growinfo} </div>
-            <button className="plantbutton__delete" onClick={handleRemove}>Delete Plant</button>
+            <button className="plantbutton__delete" onClick={handleRemove}> <VscTrash type={VscTrash}/> </button>
             <button className="plantbutton_edit" onClick={() =>{
                 history.push(`/plants/edit/${plant.id}`)
-            }}>Update Plant</button>
+            }}> <VscEdit type={VscEdit}/> </button>
             <button className="savePlant__button" disabled={props.isMyPlant} onClick={event => {
                      event.preventDefault()
                      handleSaveMyPlant()
@@ -72,7 +74,7 @@ export const PlantDetail = (props) => {
                      event.preventDefault()
 
                      handleDeleteMyPlant()
-                 }}>{props.isFriend ? <>Remove Plant</> : <> </> } </button>
+                 }}>{props.isMyPlant ? <>Remove Plant</> : <> </> } </button>
         </section>
         
         

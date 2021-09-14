@@ -12,7 +12,7 @@ export const MyPlantsProvider = (props) => {
     //     .then(setMyPlants)
     // }
     const getMyPlants = () => {
-        return fetch(`${URL}/myplants?_expand=user&_expand=plant&_sort=plant.id`)
+        return fetch(`${URL}/myplants?_expand=user&_expand=plant`)
         .then(r => r.json())
         .then(setMyPlants)
     }

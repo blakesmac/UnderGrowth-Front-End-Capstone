@@ -2,21 +2,23 @@ import React from "react"
 import { Link } from "react-router-dom"
 import "./NavBar.css"
 // import { Navbar } from "react-bootstrap"
-
+import {  RiAncientGateFill, RiPlantFill} from "react-icons/ri";
+import { GiPlantsAndAnimals} from "react-icons/gi";
+import { FcInfo} from "react-icons/fc";
 export const NavBar = (props) => {
     return (
         <ul className="navigation">
             <li className="nav__item active">
-                <Link className="nav__link" to="/">Home</Link> 
+                <Link className="nav__link" to="/"> <RiAncientGateFill size="3em" type={RiAncientGateFill}/>Home</Link> 
             </li>
             <li className="nav__item active">
-                <Link className="nav__link" to="/plants">Plants</Link> 
+                <Link className="nav__link" to="/plants"> <RiPlantFill size="3em" type={RiPlantFill}/>Plants</Link> 
             </li>
             <li className="nav__item active">
-                <Link className="nav__link" to="/myplants">My Plants</Link> 
+                <Link className="nav__link" to="/myplants"> <GiPlantsAndAnimals size="3em" type={GiPlantsAndAnimals}/>My-Plants</Link> 
             </li>
             <li className="nav__item active">
-                <Link className="nav__link" to="/gardeninfo">Garden Information</Link> 
+                <Link className="nav__link" to="/gardeninfo"> <FcInfo size="3em" type={FcInfo}/>Garden-Information</Link> 
             </li>
             
         </ul>

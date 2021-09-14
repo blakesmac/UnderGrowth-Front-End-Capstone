@@ -1,3 +1,7 @@
+
+
+
+
 .plant {
     flex-basis: 25%;
     display: flex;
@@ -6,13 +10,15 @@
     justify-content: center;
     padding: 2em;
     border: ridge aqua;
-    background-color: aquamarine;
-    font-style: oblique;
+    background-color: greenyellow;
+    font-style: bold;
     width: 270px;
     min-width: 10rem;
     border-radius: 5px;
-    align-items: baseline;
+    align-items: center ;
     font-family: fantasy;
+    color:black;
+
     
     
 }
@@ -62,7 +68,7 @@
     
 }
 .plantbutton_edit:hover {
-    background-color: greenyellow;
+    background-color: darkolivegreen;
 }
 
 .plantbutton__delete  {
@@ -92,12 +98,10 @@
 	text-align: center;
 	width: 40%;
 } */
-.body {
-    background-color: bisque;
-}
+
 
 .search {
-    color: aqua;
+    color:black;
 }
 .deletePlant_button:disabled {
    background-color: aquamarine; 
