@@ -12,10 +12,14 @@ export const Undergrowth = () => (
         render={() => {
           if (sessionStorage.getItem("undergrowth_user")) {
             return (
+              <div style={{ 
+                backgroundImage: `url("https://wallpaperaccess.com/full/1271952.jpg")` 
+              }}>
               <>
                 <NavBar />
                 <ApplicationViews />
               </>
+              </div>
             )
           } else {
             return <Redirect to="/login" />;

@@ -39,6 +39,26 @@
       "growinfo": "Potatoes wil grow best in full sunlight, also require well drained soil.",
       "whentogrow": "Plant your potatoes in March, April or May for best results.",
       "id": 9
+    },
+    {
+      "userId": 3,
+      "img": "https://cdn.shopify.com/s/files/1/0059/8835/2052/products/American_Boxwood_1_FGT_650x.jpg?v=1602789182",
+      "name": "Boxwood",
+      "species": "Dwarf Boxwood",
+      "plantingzone": "Plant these as shrubs next to your home or business.",
+      "growinfo": "These enjoy hot sunlight and require a decent draining area (plant using woodchips)",
+      "whentogrow": "Fall",
+      "id": 10
+    },
+    {
+      "userId": 3,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/8/85/Brassica_oleracea_var_capitata_Rubyball.jpg",
+      "name": "Cabbage",
+      "species": "Red Cabbage",
+      "plantingzone": "Plant in an area that receives up to 6 hours of sunlight.",
+      "growinfo": "Plant in a mix of soil and compost for best results and full leaves.",
+      "whentogrow": "Spring",
+      "id": 11
     }
   ],
   "comments": [],
@@ -47,6 +67,16 @@
       "id": 1,
       "userId": 3,
       "plantId": 8
+    },
+    {
+      "plantId": 9,
+      "userId": "3",
+      "id": 4
+    },
+    {
+      "plantId": 10,
+      "userId": "3",
+      "id": 5
     }
   ]
 }

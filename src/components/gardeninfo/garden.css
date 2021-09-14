@@ -1,0 +1,10 @@
+.gardenTitle {
+    text-align: center;
+}
+
+.cardTips {
+    display: flex;
+    width: 30em;
+    height: 30em;
+}
+
