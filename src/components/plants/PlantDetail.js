@@ -7,7 +7,7 @@ import { VscTrash } from "react-icons/vsc";
 import {VscEdit } from "react-icons/vsc";
 export const PlantDetail = (props) => {
     const { plants, deletePlant, } =useContext(PlantContext)
-    const {   addMyPlant, deleteMyPlant} = useContext(MyPlantsContext)
+    const {  addMyPlant, deleteMyPlant} = useContext(MyPlantsContext)
     // const [myplant, setMyPlant] = useState([{ plant: {} }])
     const currentUser = sessionStorage.getItem("undergrowth_user")
     const [plant, setPlant] =useState( props.plant || {plant: {} })
@@ -30,7 +30,7 @@ export const PlantDetail = (props) => {
     }
 
     const handleDeleteMyPlant = () => {
-        deleteMyPlant(props.myPlantId)
+        deleteMyPlant(props.myplantId)
         .then(() => {
             history.push("/myplants")
         })

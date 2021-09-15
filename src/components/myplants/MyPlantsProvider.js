@@ -6,11 +6,6 @@ export const MyPlantsContext = createContext()
 export const MyPlantsProvider = (props) => {
     const [myplants, setMyPlants] = useState([])
     
-    // const getMyPlants = () => {
-    //     return fetch(`${URL}/myplants?userId=${sessionStorage.getItem("undergrowth_user")}&_expand=plants`)
-    //     .then(r => r.json())
-    //     .then(setMyPlants)
-    // }
     const getMyPlants = () => {
         return fetch(`${URL}/myplants?_expand=user&_expand=plant`)
         .then(r => r.json())
@@ -32,8 +27,8 @@ export const MyPlantsProvider = (props) => {
         .then(r => r.json())
     }
 
-    const deleteMyPlant = (myPlantId) => {
-        return fetch(`${URL}/myplants/${myPlantId}`, {
+    const deleteMyPlant = (myplantId) => {
+        return fetch(`${URL}/myplants/${myplantId}`, {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json"
