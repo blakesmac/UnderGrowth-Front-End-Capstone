@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Card, Button } from "react-bootstrap"
+import { Card, CardGroup } from "react-bootstrap"
 import "./garden.css"
 export const GardenInfo = () => {
 
@@ -7,38 +7,55 @@ export const GardenInfo = () => {
         <section className="gardenInfo">
             <h2 className="gardenTitle">Garden Tips/Info </h2>
             <div className="cardTips">
-            <Card>
-                <Card.Header>Featured Tips</Card.Header>
-                <Card.Body>
-                    <Card.Title>Using Woodchips in your garden</Card.Title>
-                    <Card.Text>
-                        WoodChips are essential to your garden!
-                        They promote a healthy environment and also kill the grass
-                        and pesky weeds that will ineveitably make it into your garden. 
-                        Add woodchips on top of your soil and fertilizer mix and then plant whatever tou desire!
-                        These will also start to break down and fertilize the soil underneath
-                        while attracting healthy soil insects.
-                    </Card.Text>
-                    <Button variant="primary">Maybe a Link?</Button>
-                </Card.Body>
-            </Card>
-            
-            {/* <Card>
-                <Card.Body>
-                <Card.Title>Using Woodchips in your garden</Card.Title>
-                    <Card.Text>
-                        WoodChips are essential to your garden!
-                        They promote a healthy environment and also kill the grass
-                        and pesky weeds that will ineveitably make it into your garden. 
-                        Add woodchips on top of your soil and fertilizer mix and then plant whatever tou desire!
-                        These will also start to break down and fertilize the soil underneath
-                        while attracting healthy soil insects.
-                    </Card.Text>
-                    <Button variant="primary">Maybe a Link?</Button>
-                </Card.Body>
-            </Card> */}
+                    <div className="cardOne">
+                    <Card bg='dark' >
+                        <Card.Img variant="top" src="holder.js/100px160" />
+                        <Card.Body>
+                            <Card.Title>Card title</Card.Title>
+                            <Card.Text>
+                                This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className="text-muted">Last updated 3 mins ago</small>
+                        </Card.Footer>
+                    </Card>
+                    </div>
+                    <div className="cardTwo">
+                    <Card bg='dark'>
+                        <Card.Img variant="top" src="holder.js/100px160" />
+                        <Card.Body>
+                            <Card.Title>Card title</Card.Title>
+                            <Card.Text>
+                                This card has supporting text below as a natural lead-in to additional
+                                content.{' '}
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className="text-muted">Last updated 3 mins ago</small>
+                        </Card.Footer>
+                    </Card>
+                    </div>
+                    <div className="cardThree">
+                    <Card bg='dark'>
+                        <Card.Img variant="top" src="holder.js/100px160" />
+                        <Card.Body>
+                            <Card.Title>Card title</Card.Title>
+                            <Card.Text>
+                                This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to
+                                show that equal height action.
+                            </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className="text-muted">Last updated 3 mins ago</small>
+                        </Card.Footer>
+                    </Card>
+                    </div>
+                
             </div>
-            
+
 
         </section>
     )

@@ -2,7 +2,8 @@ import React, { useContext, useEffect, useState } from "react"
 import { useHistory } from "react-router-dom"
 import { PlantContext } from "./PlantProvider"
 import { PlantDetail } from "./PlantDetail"
-// import "./plant.css"
+import "./plant.css"
+import { Button } from "react-bootstrap"
 
 export const PlantList = () => {
     const {plants, getPlants, searchTerms} = useContext(PlantContext)
@@ -25,9 +26,10 @@ export const PlantList = () => {
     return (
         <>
         <h2 className="listName">Plants</h2>
-        <button className="button" onClick={
+        <p className="listP"> Browse through plants and pick the ones you like! </p>
+        <Button size="lg" variant="dark" className="button__addPlant" onClick={
             () => history.push("/plants/create")
-        }>Add Plant</button>
+        }>Add Plant</Button>
         <div className="plants">
             {
                 filteredPlants.map(plant => {

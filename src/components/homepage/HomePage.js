@@ -1,25 +1,31 @@
 import React, { useState } from "react";
-import { Accordion, Carousel } from "react-bootstrap";
+import { Accordion, Carousel, Image } from "react-bootstrap";
 import "./homepage.css"
+
+
 export const HomePage = () => {
 
     return (
 
         <section className="homePage">
             <div className="homepage">
-                <h1 className="homeTitle">Undergrowth</h1>
+                <div className="homeLogo">
+                {/* <Image src="/logo.jpg"  height="250px" width="250px" roundedCircle /> */}
+                
+                </div>
             </div>
             <br />
             <div className="carouselItem">
                 <Carousel  fade variant="dark">
                     <Carousel.Item>
-                        <img
+                        <img 
+                            
                             className="d-block w-100"
-                            src="https://www.gardeningknowhow.com/wp-content/uploads/2007/03/flowers-1.jpg"
+                            src="https://www.gardeningknowhow.com/wp-content/uploads/2010/06/family-vegetable-garden.jpg"
                             alt="First slide"
                         />
                         <Carousel.Caption>
-                            <h5>Welcome to Undergrowth!</h5>
+                            <h2>Welcome to Undergrowth!</h2>
                             <p>Browse through plants and veggies!</p>
                         </Carousel.Caption>
                     </Carousel.Item>

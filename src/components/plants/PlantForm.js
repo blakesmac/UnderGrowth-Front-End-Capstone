@@ -2,7 +2,7 @@ import React, {useContext, useEffect, useState} from "react"
 import { PlantContext } from "./PlantProvider"
 import { useHistory, useParams } from "react-router-dom"
 import "./plant.css"
-
+import { Button } from "react-bootstrap"
 export const PlantForm = () => {
     const {addPlant, getPlantById, editPlant } = useContext(PlantContext)
     const userId = sessionStorage.getItem("undergrowth_user")
@@ -113,7 +113,7 @@ export const PlantForm = () => {
                     placeholder="Enter Best Planting Time" onChange={handleControlledInputChange} defaultValue={plant.whentogrow}/>
                 </div>
             </fieldset>
-            <button className="btn plantform" disabled={isLoading} onClick={event => {
+            <button size="sm" className="btn plantform" disabled={isLoading} onClick={event => {
                 event.preventDefault()
                 handleSavePlant()
             }}>

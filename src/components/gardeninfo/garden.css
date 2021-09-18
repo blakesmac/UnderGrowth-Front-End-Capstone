@@ -4,7 +4,27 @@
 
 .cardTips {
     display: flex;
-    width: 30em;
+    width: 50em;
     height: 30em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardOne {
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+    padding: 3em;
+}
+
+.cardTwo {
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+    padding: 3em;
+}
+
+.cardThree {
+    display: flex;
 }
 

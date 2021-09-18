@@ -59,9 +59,54 @@
       "growinfo": "Plant in a mix of soil and compost for best results and full leaves.",
       "whentogrow": "Spring",
       "id": 11
+    },
+    {
+      "userId": 3,
+      "img": "https://www.ufseeds.com/dw/image/v2/BFKV_PRD/on/demandware.static/-/Sites-master-urbanfarmer/default/dw7b8da513/images/products/Carolina-Cucumber-Seeds.jpg?sw=450&sh=450",
+      "name": "Cucumber",
+      "species": "Mega Cucumber",
+      "plantingzone": "Plant on trellace or fence, somewhere it can spread",
+      "growinfo": "Good Drainage and Sunlight. This is a vine.",
+      "whentogrow": "Early Summer",
+      "id": 12
+    },
+    {
+      "userId": 3,
+      "img": "https://www.almanac.com/sites/default/files/image_nodes/carrots-table_popidar-ss.jpg",
+      "name": "Carrotts",
+      "species": "Large Carrots",
+      "plantingzone": "Plant next to potatoes",
+      "growinfo": "Plant in a mix of loose sandy soil for best results",
+      "whentogrow": "Spring or Fall",
+      "id": 13
     }
   ],
-  "comments": [],
+  "comments": [
+    {
+      "userId": 3,
+      "plantId": 8,
+      "title": "Boxwood",
+      "comment": "Shrubbery",
+      "date": "9/18/2021",
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "plantId": 9,
+      "title": "Cabbage",
+      "comment": "Cabbage is great",
+      "date": "9/18/2021",
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "plantId": 13,
+      "title": "Carrots",
+      "comment": "My carrotts died ",
+      "date": "9/18/2021",
+      "id": 3
+    }
+  ],
   "myplants": [
     {
       "id": 1,
@@ -69,19 +114,14 @@
       "plantId": 8
     },
     {
-      "plantId": 9,
-      "userId": 3,
-      "id": 4
-    },
-    {
-      "plantId": 10,
-      "userId": 3,
-      "id": 5
-    },
-    {
       "plantId": 11,
       "userId": 3,
-      "id": 6
+      "id": 7
+    },
+    {
+      "plantId": 9,
+      "userId": 3,
+      "id": 8
     }
   ]
 }
