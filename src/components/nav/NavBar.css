@@ -2,7 +2,10 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    
+    align-items: center;
+    border-style:none;
+    border-radius: 12px;
+    background-color: teal;
 }
 
 .nav__item {
@@ -10,5 +13,6 @@
     list-style-type: none;
 }
 .nav__link {
-    color: greenyellow;
+    color: gainsboro;
+    text-decoration: none;
 }

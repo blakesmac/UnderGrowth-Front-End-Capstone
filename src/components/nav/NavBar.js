@@ -6,11 +6,12 @@ import {VscComment} from "react-icons/vsc"
 import {  RiAncientGateFill, RiPlantFill} from "react-icons/ri";
 import { GiPlantsAndAnimals} from "react-icons/gi";
 import { FcInfo} from "react-icons/fc";
+import { RiLogoutBoxFill} from "react-icons/ri"
 export const NavBar = (props) => {
     return (
         <ul className="navigation">
             <li className="nav__item active">
-                <Link className="nav__link" to="/"> <Image src="/logo.jpg" height="150px" width="150px" roundedCircle /></Link> 
+                <Link className="nav__link" to="/"> <Image src="/logo.jpg" height="80px" width="80px" roundedCircle /></Link> 
             </li>
             <li className="nav__item active">
                 <Link className="nav__link" to="/plants"> <RiPlantFill size="3em" type={RiPlantFill}/>Plants</Link> 
@@ -25,7 +26,7 @@ export const NavBar = (props) => {
                 <Link className="nav__link" to="/gardeninfo"> <FcInfo size="3em" type={FcInfo}/>Garden-Information</Link> 
             </li>
             <li className="nav__item active">
-                <Link className="nav__link" to="/login">Log-Out</Link> 
+                <Link className="nav__link" to="/login"> <RiLogoutBoxFill size="3em" type={RiLogoutBoxFill} />Log-Out</Link> 
             </li>
             
         </ul>

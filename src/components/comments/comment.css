@@ -1,0 +1,17 @@
+.commentTitle {
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+    color: lime;
+    font-size: 3em;
+}
+.comment {
+    flex-wrap: wrap;
+    margin: 3em;
+    padding: 1em;
+    border-style: outset;
+    border-radius: 12px;
+    background-color: yellowgreen;
+    
+
+}

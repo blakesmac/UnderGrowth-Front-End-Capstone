@@ -4,3 +4,11 @@
     flex-wrap: wrap;
     flex-direction: row;
 }
+
+.myPlantsTitle {
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+    color: lime;
+    font-size: 3em;
+}

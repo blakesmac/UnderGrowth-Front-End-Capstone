@@ -14,7 +14,7 @@ export const CommentList = () => {
 
     return (
         <>
-            <h1>Comments</h1>
+            <h1 className="commentTitle">Comments</h1>
             <section className="commentListButton">
                 <button className="addComment" onClick={
                     () => history.push("/comments/create")

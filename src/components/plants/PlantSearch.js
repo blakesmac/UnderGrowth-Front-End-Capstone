@@ -7,11 +7,13 @@ export const PlantSearch = () => {
 
     return (
         <>
+        <section className="searchBar">
           <div className="search">Search:</div>
             <input type="text"
             className="input--wide"
             onKeyUp={(event) => setSearchTerms(event.target.value)}
             placeholder="Search for a Plant" />
+        </section>
             
 
         </>

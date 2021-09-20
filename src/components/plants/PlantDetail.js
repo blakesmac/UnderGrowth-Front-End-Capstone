@@ -5,6 +5,7 @@ import { MyPlantsContext } from "../myplants/MyPlantsProvider"
 import "./plant.css"
 import { VscTrash } from "react-icons/vsc";
 import {VscEdit } from "react-icons/vsc";
+import { CgAddR} from "react-icons/cg"
 export const PlantDetail = (props) => {
     const { plants, deletePlant,getPlants } =useContext(PlantContext)
     const {  addMyPlant, deleteMyPlant} = useContext(MyPlantsContext)
@@ -59,9 +60,10 @@ export const PlantDetail = (props) => {
     return (
         
         <section className="plant">
-            <h3 className="plant__name">Plant Name:{ plant.name } </h3>
+            <h3 className="plant__name">{ plant.name } </h3>
             <div className="img">
-                <img className="plant__img" key={plant.image} src={plant.img} /> </div>
+                <img className="plant__img" key={plant.image} src={plant.img} /> 
+            </div>
             <div className="plant__species">Species:{ plant.species }</div>
             <div className="plant__plantingzone">Where to plant: {plant.plantingzone}</div>
             <div className="plant__growinfo">Growing Information: {plant.growinfo} </div>
@@ -75,7 +77,7 @@ export const PlantDetail = (props) => {
             <button className="savePlant__button" disabled={props.isMyPlant} onClick={event => {
                      event.preventDefault()
                      handleSaveMyPlant()
-                 }}>{props.isMyPlant ? <> Already Mine! </> : <>Add to My Plants</>} </button>
+                 }}>{props.isMyPlant ? <> Already Mine! </> : <> <CgAddR size="2em" type={CgAddR} /> Add to My Plants</>} </button>
             <button className="deletePlant_button" disabled={!props.isMyPlant} onClick={event => {
                      event.preventDefault()
 

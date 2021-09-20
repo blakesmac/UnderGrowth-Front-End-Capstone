@@ -17,7 +17,7 @@ export const MyPlantsList = () => {
 
     return (
         <section className="myplants__object">
-            <h2>My Plants</h2>
+            <h2 className="myPlantsTitle">My Plants</h2>
             <button className="headerButton findPlants" onClick={
                 () => history.push("/plants")
             }> Explore more plants!</button>

@@ -32,6 +32,8 @@ export const CommentDetail = (props) => {
             <h3 className="comment_title">{comment.title} </h3>
             <div className="comment_body">{comment.comment} </div>
             <div className="comment_date"> Date:{comment.date} </div>
+            <div className="comment_forPlant">{comment.plantId} </div> 
+            <div className="comment_user">{comment.userId} </div>
             <button className="comment_delete" onClick={handleDeletion}> <VscTrash type={VscTrash}/> </button>
             <button className="comment_edit" onClick={() =>{
                 history.push(`/comments/edit/${comment.id}`)

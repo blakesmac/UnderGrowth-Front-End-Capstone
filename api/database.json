@@ -103,6 +103,14 @@
       "comment": "My carrotts died ",
       "date": "9/18/2021",
       "id": 3
+    },
+    {
+      "userId": 1,
+      "plantId": 0,
+      "title": "Tomato health",
+      "comment": "My tomatoes died after two weeks, must have not given them enough water",
+      "date": "9/20/2021",
+      "id": 4
     }
   ],
   "myplants": [
