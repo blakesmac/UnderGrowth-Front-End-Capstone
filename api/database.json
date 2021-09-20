@@ -31,14 +31,13 @@
       "id": 8
     },
     {
-      "userId": 3,
+      "id": 9,
       "img": "https://gardenerspath.com/wp-content/uploads/2019/03/How-to-Grow-Potatoes-Cover.jpg",
       "name": "Potatoes",
       "species": "Tubers, Root Vegetable",
       "plantingzone": "These flourish around any number of other veegetables, recommended to keep them around other tubing plants",
       "growinfo": "Potatoes wil grow best in full sunlight, also require well drained soil.",
-      "whentogrow": "Plant your potatoes in March, April or May for best results.",
-      "id": 9
+      "whentogrow": "Plant your potatoes in March, April or May for best results."
     },
     {
       "userId": 3,
@@ -71,14 +70,13 @@
       "id": 12
     },
     {
-      "userId": 3,
+      "id": 13,
       "img": "https://www.almanac.com/sites/default/files/image_nodes/carrots-table_popidar-ss.jpg",
       "name": "Carrotts",
       "species": "Large Carrots",
-      "plantingzone": "Plant next to potatoes",
+      "plantingzone": "Plant next to Tomatoes",
       "growinfo": "Plant in a mix of loose sandy soil for best results",
-      "whentogrow": "Spring or Fall",
-      "id": 13
+      "whentogrow": "Spring or Fall"
     }
   ],
   "comments": [
@@ -114,14 +112,19 @@
       "plantId": 8
     },
     {
-      "plantId": 11,
-      "userId": 3,
-      "id": 7
-    },
-    {
       "plantId": 9,
       "userId": 3,
       "id": 8
+    },
+    {
+      "plantId": 12,
+      "userId": 3,
+      "id": 9
+    },
+    {
+      "plantId": 13,
+      "userId": 1,
+      "id": 10
     }
   ]
 }
