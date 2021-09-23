@@ -3,6 +3,7 @@ import { CommentContext } from "./CommentProvider"
 import { CommentDetail } from "./CommentDetail"
 import { useHistory } from "react-router-dom"
 import "./comment.css"
+import { Button } from "react-bootstrap"
 
 export const CommentList = () => {
     const {comments, getComments } = useContext(CommentContext)
@@ -16,9 +17,9 @@ export const CommentList = () => {
         <>
             <h1 className="commentTitle">Comments</h1>
             <section className="commentListButton">
-                <button className="addComment" onClick={
+                <Button size="large" variant="dark" className="addComment" onClick={
                     () => history.push("/comments/create")
-                }>Post Comment</button>
+                }>Post Comment</Button>
             </section>
             <div className="commentList">
                 {

@@ -77,17 +77,66 @@
       "plantingzone": "Plant next to Tomatoes",
       "growinfo": "Plant in a mix of loose sandy soil for best results",
       "whentogrow": "Spring or Fall"
+    },
+    {
+      "userId": 3,
+      "img": "https://images.squarespace-cdn.com/content/v1/596f7d5d17bffcd028cef774/1523552571622-KIG03MUTCCG6EPDNZ2BP/planting+red+onions.jpg",
+      "name": "Onions",
+      "species": "Red Onions",
+      "plantingzone": "In-ground gardens and raised beds. Space onions 6-inches apart.",
+      "growinfo": "Require fertile, well drained soil, & plenty of sun.",
+      "whentogrow": "Spring",
+      "id": 14
+    },
+    {
+      "id": 15,
+      "img": "https://www.ufseeds.com/dw/image/v2/BFKV_PRD/on/demandware.static/-/Sites-master-urbanfarmer/default/dw36725779/images/products/Yellow-Sweet-Spanish-Onion-Seeds.jpg?sw=450&sh=450",
+      "name": "Onions",
+      "species": "Spanish Onions",
+      "plantingzone": "Space 4-6 inches apart in rows that are at least 1 foot apart.",
+      "growinfo": "Require fertile, well drained soil, & plenty of sun.",
+      "whentogrow": "Spring, Early Summer"
+    },
+    {
+      "id": 16,
+      "img": "https://cdn.harvesttotable.com/htt/2009/04/23182430/bigstock-Natural-Green-Background-Of-Si-306367186-1024x732.jpg",
+      "name": "Chives",
+      "species": "Garlic Chives",
+      "plantingzone": "Grow near if not under shade.",
+      "growinfo": "Make sure to incorporate 4 to 6 inches of well composted soil.",
+      "whentogrow": "Early Spring 4-6 weeks before the last frost."
+    },
+    {
+      "userId": 3,
+      "img": "https://gardenerspath.com/wp-content/uploads/2020/09/Cauliflower-Growing-in-a-Container-Cover.jpg",
+      "name": "Cauliflower",
+      "species": "Snowball",
+      "plantingzone": "Plant with Broccoli",
+      "growinfo": "Plant in open sunlight and compost for best results.",
+      "whentogrow": "Spring or Fall",
+      "id": 17
+    },
+    {
+      "userId": 3,
+      "img": "https://s3.eu-west-2.amazonaws.com/growinginteractive/plants/SQU2.jpg",
+      "name": "Squash",
+      "species": "Summer Squash",
+      "plantingzone": "Plant in raised bed or in-ground garden.",
+      "growinfo": "These require 6 or more hours of sunlight in well drained soil.",
+      "whentogrow": "Plant during the last two weeks of spring.",
+      "id": 18
+    },
+    {
+      "id": 19,
+      "img": "https://www.almanac.com/sites/default/files/styles/amp_metadata_content_image_min_696px_wide/public/image_nodes/broccoli-plant.jpg?itok=DxKCKhXb",
+      "name": "Broccoli",
+      "species": "Belstar",
+      "plantingzone": "Try to plant not in direct extreme heat but next to cauliflower in similar conditions.",
+      "growinfo": "Needs well drained soil with plenty of compost & organic matter.",
+      "whentogrow": "Late Summer or Fall"
     }
   ],
   "comments": [
-    {
-      "userId": 3,
-      "plantId": 8,
-      "title": "Boxwood",
-      "comment": "Shrubbery",
-      "date": "9/18/2021",
-      "id": 1
-    },
     {
       "userId": 3,
       "plantId": 9,
@@ -103,14 +152,6 @@
       "comment": "My carrotts died ",
       "date": "9/18/2021",
       "id": 3
-    },
-    {
-      "userId": 1,
-      "plantId": 0,
-      "title": "Tomato health",
-      "comment": "My tomatoes died after two weeks, must have not given them enough water",
-      "date": "9/20/2021",
-      "id": 4
     }
   ],
   "myplants": [

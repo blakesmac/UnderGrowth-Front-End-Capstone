@@ -64,7 +64,7 @@ export const PlantDetail = (props) => {
             <div className="img">
                 <img className="plant__img" key={plant.image} src={plant.img} /> 
             </div>
-            <div className="plant__species">Species:{ plant.species }</div>
+            <div className="plant__species">Species: { plant.species }</div>
             <div className="plant__plantingzone">Where to plant: {plant.plantingzone}</div>
             <div className="plant__growinfo">Growing Information: {plant.growinfo} </div>
             <button className="plantbutton__delete" disabled={props.isMyPlant} onClick={event => {

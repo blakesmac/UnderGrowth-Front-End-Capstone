@@ -3,12 +3,14 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-evenly;
+    
 }
 
 .myPlantsTitle {
     margin: auto;
     padding: 2em;
     text-align: center;
-    color: lime;
+    color: rgb(32,37,41);
     font-size: 3em;
 }
