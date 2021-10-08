@@ -2,7 +2,7 @@
     margin: auto;
     padding: 2em;
     text-align: center;
-    color: lime;
+    color: rgb(32,37,41);
     font-size: 3em;
 }
 .comment {
@@ -11,7 +11,11 @@
     padding: 1em;
     border-style: outset;
     border-radius: 12px;
-    background-color: yellowgreen;
+    color: white;
+    background-color: rgb(32,37,41);
     
 
+}
+.commentListButton {
+    margin: 3em;
 }

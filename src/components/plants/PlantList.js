@@ -26,7 +26,7 @@ export const PlantList = () => {
     return (
         <>
         <h2 className="listName">Plants</h2>
-        <p className="listP"> Browse through plants and pick the ones you like! </p>
+        <p className="listP"> Browse through plants and veggies and add the the ones you like! </p>
         <Button size="lg" variant="dark" className="button__addPlant" onClick={
             () => history.push("/plants/create")
         }>Add Plant</Button>

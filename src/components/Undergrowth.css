@@ -9,13 +9,19 @@ textarea{
   font-family: "Lobster", cursive;
   font-size: 1rem;
   line-height: 1.3;
+  
 }
+
+
 
 h1, h2, h3, h4 {
   font-family: "Lobster", sans-serif;
   font-weight: 700;
   letter-spacing: .2rem;
   text-transform: uppercase;
+}
+.whitetext {
+  color: white;
 }
 
 h5, h6 {
@@ -25,7 +31,7 @@ h5, h6 {
 }
 
 p {
-  color: darkolivegreen;
+  color: white;
 }
 
 strong {

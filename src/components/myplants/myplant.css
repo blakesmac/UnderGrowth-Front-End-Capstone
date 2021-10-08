@@ -3,12 +3,27 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-evenly;
+    
 }
-
+.headerButton findPlants {
+    padding: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background-color: darkolivegreen;
+    color: yellowgreen;
+    margin-left: 4em;
+    border-radius: 10px;
+    width: 5em;
+    height: 5em;
+    font-size: 10px;
+}
 .myPlantsTitle {
     margin: auto;
     padding: 2em;
     text-align: center;
-    color: lime;
+    color: rgb(32,37,41);
     font-size: 3em;
 }

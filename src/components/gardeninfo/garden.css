@@ -10,21 +10,9 @@
     align-items: center;
 }
 
-.cardOne {
+.modalButton {
     display: flex;
-    justify-content: space-around;
-    margin: 1em;
-    padding: 3em;
-}
-
-.cardTwo {
-    display: flex;
-    justify-content: space-around;
-    margin: 1em;
-    padding: 3em;
-}
-
-.cardThree {
-    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 

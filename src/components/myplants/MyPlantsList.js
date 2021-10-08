@@ -3,6 +3,7 @@ import { useHistory } from "react-router"
 import { MyPlantsContext } from "./MyPlantsProvider"
 import { PlantDetail } from "../plants/PlantDetail"
 import { PlantContext } from "../plants/PlantProvider"
+import { Button } from "react-bootstrap"
 import "./myplant.css"
 export const MyPlantsList = () => {
     const history = useHistory()
@@ -18,9 +19,9 @@ export const MyPlantsList = () => {
     return (
         <section className="myplants__object">
             <h2 className="myPlantsTitle">My Plants</h2>
-            <button className="headerButton findPlants" onClick={
+            <Button size="lg" variant="dark"  className="headerButton findPlants" onClick={
                 () => history.push("/plants")
-            }> Explore more plants!</button>
+            }> Explore more plants!</Button>
             <div className="myplants__list">
             {
                 myplants.map(myplant => {

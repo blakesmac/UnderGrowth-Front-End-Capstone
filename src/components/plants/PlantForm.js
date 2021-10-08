@@ -113,7 +113,7 @@ export const PlantForm = () => {
                     placeholder="Enter Best Planting Time" onChange={handleControlledInputChange} defaultValue={plant.whentogrow}/>
                 </div>
             </fieldset>
-            <button size="sm" className="btn plantform" disabled={isLoading} onClick={event => {
+            <button size="sm" className="btn_plantform" disabled={isLoading} onClick={event => {
                 event.preventDefault()
                 handleSavePlant()
             }}>

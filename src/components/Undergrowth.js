@@ -13,19 +13,13 @@ export const Undergrowth = () => (
         render={() => {
           if (sessionStorage.getItem("undergrowth_user")) {
             return (
-              <div className="bg__img" style={{
-                width: '100%',
-                height: '100%', 
-                backgroundImage: `url("https://i.pinimg.com/236x/ef/ca/97/efca9751ea57e9c4cecb5648c41c0c31.jpg")`,
-                backgroundRepeat: 'repeat', 
-                
-              }}>
+              
               <>
                 <NavBar />
                 <ApplicationViews />
                 <Footer />
               </>
-              </div>
+              
             )
           } else {
             return <Redirect to="/login" />;

@@ -11,7 +11,7 @@ export const PlantDetail = (props) => {
     const {  addMyPlant, deleteMyPlant} = useContext(MyPlantsContext)
     // const [myplant, setMyPlant] = useState([{ plant: {} }])
     const currentUser = sessionStorage.getItem("undergrowth_user")
-    const [plant, setPlant] =useState( props.plant || {})
+    const [plant, setPlant] = useState( props.plant || {})
     // const { myPlantId } = useParams();
     const { plantId } = useParams();
     const history = useHistory()
@@ -64,7 +64,7 @@ export const PlantDetail = (props) => {
             <div className="img">
                 <img className="plant__img" key={plant.image} src={plant.img} /> 
             </div>
-            <div className="plant__species">Species:{ plant.species }</div>
+            <div className="plant__species">Species: { plant.species }</div>
             <div className="plant__plantingzone">Where to plant: {plant.plantingzone}</div>
             <div className="plant__growinfo">Growing Information: {plant.growinfo} </div>
             <button className="plantbutton__delete" disabled={props.isMyPlant} onClick={event => {
