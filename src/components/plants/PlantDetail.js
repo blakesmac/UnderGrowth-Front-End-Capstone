@@ -11,7 +11,7 @@ export const PlantDetail = (props) => {
     const {  addMyPlant, deleteMyPlant} = useContext(MyPlantsContext)
     // const [myplant, setMyPlant] = useState([{ plant: {} }])
     const currentUser = sessionStorage.getItem("undergrowth_user")
-    const [plant, setPlant] =useState( props.plant || {})
+    const [plant, setPlant] = useState( props.plant || {})
     // const { myPlantId } = useParams();
     const { plantId } = useParams();
     const history = useHistory()

@@ -24,9 +24,9 @@ export const ApplicationViews = () => {
                             <HomePage />
                         </Route>
 
-                        <Route exact path="/gardeninfo">
+                        {/* <Route exact path="/gardeninfo">
                             <GardenInfo />
-                        </Route>
+                        </Route> */}
 
                         <Route exact path="/plants">
                             <PlantSearch />

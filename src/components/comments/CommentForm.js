@@ -80,7 +80,7 @@ export const CommentForm = () => {
                 </div>
             </fieldset>
                 <div className="form-group">
-                    <label htmlfor="title">Comment Body:</label>
+                    <label htmlfor="comment">Comment Body:</label>
                     <input type="text" id="comment" name="comment" required autoFocus className="form-control"
                     placeholder="Enter your Comment" onChange={handleInputChange} default={comment.comment}/>
                     </div>

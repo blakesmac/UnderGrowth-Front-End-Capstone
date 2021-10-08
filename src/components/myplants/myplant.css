@@ -6,7 +6,20 @@
     justify-content: space-evenly;
     
 }
-
+.headerButton findPlants {
+    padding: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background-color: darkolivegreen;
+    color: yellowgreen;
+    margin-left: 4em;
+    border-radius: 10px;
+    width: 5em;
+    height: 5em;
+    font-size: 10px;
+}
 .myPlantsTitle {
     margin: auto;
     padding: 2em;

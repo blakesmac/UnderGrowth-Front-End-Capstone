@@ -27,7 +27,7 @@ export const NavBar = (props) => {
                 <NavDropdown.Item href="#action/3.2"> <Link className="nav__link" to="/plants"> <RiPlantFill size="3em" type={RiPlantFill}/>Plants</Link> </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3"> <Link className="nav__link" to="/myplants"> <GiPlantsAndAnimals size="3em" type={GiPlantsAndAnimals}/>My-Plants</Link></NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3"> <Link className="nav__link" to="/comments"> <VscComment size="3em" type={VscComment} /> Comments</Link> </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3"> <Link className="nav__link" to="/gardeninfo"> <FcInfo size="3em" type={FcInfo}/>Garden-Information</Link> </NavDropdown.Item>
+                {/* <NavDropdown.Item href="#action/3.3"> <Link className="nav__link" to="/gardeninfo"> <FcInfo size="3em" type={FcInfo}/>Garden-Information</Link> </NavDropdown.Item> */}
                 <NavDropdown.Item href="#action/3.3"> <Link className="nav__link" to="/login"> <RiLogoutBoxFill size="3em" type={RiLogoutBoxFill} />Log-Out</Link> </NavDropdown.Item>
               </NavDropdown>
             </Nav>

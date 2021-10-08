@@ -134,6 +134,15 @@
       "plantingzone": "Try to plant not in direct extreme heat but next to cauliflower in similar conditions.",
       "growinfo": "Needs well drained soil with plenty of compost & organic matter.",
       "whentogrow": "Late Summer or Fall"
+    },
+    {
+      "id": 20,
+      "img": "https://www.thespruce.com/thmb/2qltRkzSWl1o9_jhwTOyMjVjeuk=/3807x2539/filters:no_upscale():max_bytes(150000):strip_icc()/yellow-watermelon-plant-profile-4766599-01-18c38a3e17c04a4c8c55951d027fc9e4.jpg",
+      "name": "Watermelon",
+      "species": "Yellow Meat Watermelon",
+      "plantingzone": "Plant 6 feet apart with 3 seeds to a mound.",
+      "growinfo": "Remove less than vigorous seedlings after 8 days. ",
+      "whentogrow": "Early March or early August"
     }
   ],
   "comments": [
@@ -149,7 +158,7 @@
       "userId": 3,
       "plantId": 13,
       "title": "Carrots",
-      "comment": "My carrotts died ",
+      "comment": "Carrots survived the winter",
       "date": "9/18/2021",
       "id": 3
     }
@@ -174,6 +183,16 @@
       "plantId": 13,
       "userId": 1,
       "id": 10
+    },
+    {
+      "plantId": 15,
+      "userId": 3,
+      "id": 11
+    },
+    {
+      "plantId": 20,
+      "userId": 3,
+      "id": 12
     }
   ]
 }
